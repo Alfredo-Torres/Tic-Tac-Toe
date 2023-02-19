@@ -64,7 +64,7 @@ function render() {
     squares[index].textContent = mark;
     });
     messages.textContent = `It's ${turn}'s turn!`;
-    messages.textContent = win === 'T' ? 'Rats! A tie!' : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
+    messages.textContent = win === 'T' ? `It's a tie! Go again!` : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
     };
 
 init();
